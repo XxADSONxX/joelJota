@@ -170,14 +170,14 @@ button {
         width: 100%;
     }
     .promesse{
-        margin-left:13em;
+        margin-left:0;
         width: 100%;
     }
     .promesse input{
-        width: 100%;
+        width: 25REM;
     }
     #btn{
-        width: 27rem
+        width: 25rem
     }
     .cards{
         margin-left: 0;
