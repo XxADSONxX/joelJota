@@ -175,10 +175,10 @@ button {
         width: 100%;
     }
     .promesse input{
-        width: 22REM;
+        width: 80%;
     }
     #btn{
-        width: 22rem
+        width: 80%;
     }
     .cards{
     margin-left: 0;
@@ -214,5 +214,6 @@ button {
     }
     footer{
         width: 100%;
+        text-align: justify;
     }
 }
