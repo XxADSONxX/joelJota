@@ -36,7 +36,7 @@ p {
 button {
     background-color: #22DC35;
     font-size: 2em;
-    width: 43.875em;
+    width: 100%;
     height: 6em;
     color: #131313;
     border: none;
@@ -113,7 +113,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-       
+
     }
 
 
@@ -125,19 +125,21 @@ button {
         cursor: pointer;
     }
 
-    .pro2 {/* 
-        background-image: url(../assets/1.jpg); */
-       
+    .pro2 {
+        background-image: url(../assets/E.jpg);
+
         height: 87em;
-        
+
     }
-    .bio{
+
+    .bio {
         margin-top: -75em;
         position: relative;
         margin-left: 100em;
         width: 32em;
-        }
-    footer{
+    }
+
+    footer {
         font-size: 1.25em;
         display: flex;
         justify-content: space-evenly;
@@ -145,21 +147,68 @@ button {
         width: 100%;
     }
 }
+
 @media screen and (max-width:1440px) {
-    .topo{
+    .topo {
         width: 150em;
     }
-    .chamada{
-        width: 151em;
+
+    .chamada {
+        width: 100%;
     }
-    footer{
+
+    footer {
+        position: absolute;
         width: 118em;
     }
-    
+
 }
-/* @media screen and (max-width:767px) {
-    .promesse{
-        display: flex;
-        justify-content: c;
+
+@media screen and (max-width:767px) {
+    .topo{
+        background-image: url(../assets/backmobile.jpg);
+        width: 100%;
     }
-} */
+    .promesse{
+        margin-left:13em;
+        width: 100%;
+    }
+    .promesse input{
+        width: 100%;
+    }
+    #btn{
+        width: 27rem
+    }
+    .cards{
+        margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    }
+    .cards img {width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+    
+    .chamada{
+        width: 100%;
+    max-width: 767px;
+    }
+
+    .pro2 {
+        background-image: url(../assets/p2_mobile.jpg);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bio {
+        text-align: center;
+        margin-top: 0;
+        position: relative;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-left: 0;
+        width: 100%;
+    }
+}
