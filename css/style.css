@@ -1,0 +1,165 @@
+/* CORES-PRIMARIAS
+#E717B9
+COR-SECUNDARIA
+#6310B6
+COR-TECIARIA
+#22DC35
+TOM-DE-CINZA
+#B8B6B6
+*/
+
+
+
+body {
+    font-size: 62.5%;
+    background-color: #131313;
+    font-family: 'Sora', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.95rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+button {
+    background-color: #22DC35;
+    font-size: 2em;
+    width: 43.875em;
+    height: 6em;
+    color: #131313;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:120.0625em) {
+    .topo {
+        background-image: url(../assets/ROTOTIO1.jpg);
+        max-width: 122rem;
+        width: 100%;
+        height: 42.5rem;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .promesse {
+        max-width: 64.8rem;
+        width: 100%;
+        margin-top: 13rem;
+        margin-left: 32rem;
+        margin-right: 95rem;
+    }
+
+    form input {
+        color: #fff;
+        font-size: 1rem;
+        background: rgba(217, 217, 217, 0.3);
+        width: 14rem;
+        text-align: center;
+        height: 2.2rem;
+        border: none;
+        border-radius: 0.3rem;
+    }
+
+    form button {
+        width: 10rem;
+        height: 2.3rem;
+        border: none;
+        border-radius: 0.3rem;
+        background-color: #22DC35;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
+    #topico {
+        color: #E717B9;
+        font-size: 1.3rem;
+    }
+
+    .cards {
+        width: 80.25em;
+        margin-left: 32rem;
+        margin-right: 32rem;
+    }
+
+    .cards img {
+        /*  width: 25.625em; */
+        width: 25em;
+        padding-left: 0.5rem;
+        display: inline-block;
+
+    }
+
+    .chamada {
+        margin-top: 7.125em;
+        text-align: center;
+        max-width: 170em;
+        width: 100%;
+        height: 42.464375em;
+        background: linear-gradient(158.4deg, #F822C8 2.22%, #4F0D92 95.59%);
+        opacity: 0.6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+
+    .chamada bottom {
+        border: none;
+        border-radius: 0.3rem;
+        background-color: #22DC35;
+        color: #131313;
+        cursor: pointer;
+    }
+
+    .pro2 {/* 
+        background-image: url(../assets/1.jpg); */
+       
+        height: 87em;
+        
+    }
+    .bio{
+        margin-top: -75em;
+        position: relative;
+        margin-left: 100em;
+        width: 32em;
+        }
+    footer{
+        font-size: 1.25em;
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 150em;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1440px) {
+    .topo{
+        width: 150em;
+    }
+    .chamada{
+        width: 151em;
+    }
+    footer{
+        width: 118em;
+    }
+    
+}
+/* @media screen and (max-width:767px) {
+    .promesse{
+        display: flex;
+        justify-content: c;
+    }
+} */
