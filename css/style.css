@@ -171,16 +171,17 @@ button {
     }
     .promesse{
         margin-left:0;
+        font-size: 1.5em;
         width: 100%;
     }
     .promesse input{
-        width: 25REM;
+        width: 22REM;
     }
     #btn{
-        width: 25rem
+        width: 22rem
     }
     .cards{
-        margin-left: 0;
+    margin-left: 0;
     margin-right: 0;
     width: 100%;
     }
