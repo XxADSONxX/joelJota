@@ -206,6 +206,10 @@ button {
         width: 100%;
         max-width: 767px;
     }
+    .chamada #text2{
+        font-size: 1.1em;
+        color: #FFF;
+    }
 
     .pro2 {
         background-image: url(../assets/p2_mobile.jpg);
